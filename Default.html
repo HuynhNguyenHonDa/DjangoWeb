@@ -1,0 +1,501 @@
+﻿
+{%  extends 'pages/Masterbase.html' %}
+    {% block title %} <title> trang chủ </title> {% endblock %}
+
+{%  load static %}
+{% block content %}
+
+            <!--Trang riêng-->
+            <div class="container">
+                <div class="row margin-top10px">
+                    <div class="span8">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <img src="{% static '/css/images/5.jpg' %}" />
+                                </li>
+                                <li>
+                                    <img src="{% static '/css/images/6.jpg' %}" />
+                                </li>
+                                <li>
+                                    <img src="{% static '/css/images/7.jpg' %}" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div id="homeSpecial">
+                            <div class="titleHeader clearfix">
+                                <h3 class="no-margin">Tình hình ATTT</h3>
+                                <div class="pagers">
+                                    <div class="btn-toolbar">
+                                        <div class="btn-group">
+                                            <button class="btn btn-mini vNext"><i class="icon-caret-down"></i></button>
+                                            <button class="btn btn-mini vPrev"><i class="icon-caret-up"></i></button>
+                                        </div>
+                                        <button class="btn btn-mini">Xem Tất Cả</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="vProductItems cycle-slideshow vertical clearfix" data-cycle-fx="carousel" data-cycle-timeout="0" data-cycle-slides=">li" data-cycle-next=".vPrev" data-cycle-prev=".vNext" data-cycle-carousel-visible="2" data-cycle-carousel-vertical="true">
+                                <li class="span4 clearfix">
+                                    <div class="thumbImage">
+                                        <a href="#">
+                                            <img width="92" src="{% static '/css/images/tt1.jpg' %}" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="thumbSetting">
+                                        <div class="thumbTitle">
+                                            <a href="#" class="invarseColor">
+                                                TÌnh hình quân khu 9 có 1 máy vi phạm ATTT”</a>
+                                        </div>
+                                        <div class="thumbPrice">
+                                            <span>Người đăng bài: abc</span>
+                                        </div>
+                                        <div class="thumbPrice">
+                                            <span >lượt xem: 1231 </span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="span4 clearfix">
+                                    <div class="thumbImage">
+                                        <a href="#">
+                                            <img width="92" src="{% static '/css/images/tt2.jpg' %}" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="thumbSetting">
+                                        <div class="thumbTitle">
+                                            <a href="#" class="invarseColor">
+                                                TÌnh hình quân khu 9 có 1 máy vi phạm ATTT</a>
+                                        </div>
+                                        <div class="thumbPrice">
+                                            <span>Người đăng bài: abc</span>
+                                        </div>
+                                        <div class="thumbPrice">
+                                            <span >lượt xem: 1231</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="span4 clearfix">
+                                    <div class="thumbImage">
+                                        <a href="#">
+                                            <img width="92" src="{% static '/css/images/tt3.jpg' %}" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="thumbSetting">
+                                        <div class="thumbTitle">
+                                            <a href="#" class="invarseColor">
+                                                TÌnh hình quân khu 9 có 1 máy vi phạm ATTT</a>
+                                        </div>
+                                        <div class="thumbPrice">
+                                            <span>Người đăng bài: abc</span>
+                                        </div>
+                                        <div class="thumbPrice">
+                                            <span >lượt xem: 1231</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="span12">
+                        <div id="featuredItems">
+                            <div class="titleHeader clearfix">
+                                <h3 class="no-margin">Tình hình ATTT</h3>
+                                <div class="pagers">
+                                    <div class="btn-toolbar">
+                                        <button class="btn btn-mini">Công nghệ mới</button>
+                                        <button class="btn btn-mini">Sự cố ATTT</button>
+                                        <button class="btn btn-mini">Nỗi bật</button>
+                                        <button class="btn btn-mini">Xem Tất Cả</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <ul class="hProductItems clearfix">
+                                    <li class="span3 clearfix">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="{% static '/css/images/6.jpg' %}" alt="" />
+                                            </a>
+                                        </div>
+                                        <div class="thumbSetting">
+                                            <div class="thumbTitle">
+                                                <a href="#" class="invarseColor">
+                                                    TÌnh hình quân khu 9 có 1 máy vi phạm ATTT</a>
+                                            </div>
+                                            <div class="thumbPrice">
+                                                <span>
+                                                    Người đăng: hondahuynh
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="span3 clearfix">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="{% static '/css/images/6.jpg' %}" alt="" />
+                                            </a>
+                                        </div>
+                                        <div class="thumbSetting">
+                                            <div class="thumbTitle">
+                                                <a href="#" class="invarseColor">
+                                                    TÌnh hình quân khu 9 có 1 máy vi phạm ATTT</a>
+                                            </div>
+                                            <div class="thumbPrice">
+                                                <span>
+                                                    Người đăng: hondahuynh
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="span3 clearfix">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="{% static '/css/images/6.jpg' %}" alt="" />
+                                            </a>
+                                        </div>
+                                        <div class="thumbSetting">
+                                            <div class="thumbTitle">
+                                                <a href="#" class="invarseColor">
+                                                    TÌnh hình quân khu 9 có 1 máy vi phạm ATTT</a>
+                                            </div>
+                                            <div class="thumbPrice">
+                                                <span>
+                                                    Người đăng: hondahuynh
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="span3 clearfix">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="{% static '/css/images/6.jpg' %}" alt="" />
+                                            </a>
+                                        </div>
+                                        <div class="thumbSetting">
+                                            <div class="thumbTitle">
+                                                <a href="#" class="invarseColor">
+                                                    TÌnh hình quân khu 9 có 1 máy vi phạm ATTT</a>
+                                            </div>
+                                            <div class="thumbPrice">
+                                                <span>
+                                                    Người đăng: hondahuynh
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="span3 clearfix">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="{% static '/css/images/6.jpg' %}" alt="" />
+                                            </a>
+                                        </div>
+                                        <div class="thumbSetting">
+                                            <div class="thumbTitle">
+                                                <a href="#" class="invarseColor">
+                                                    TÌnh hình quân khu 9 có 1 máy vi phạm ATTT</a>
+                                            </div>
+                                            <div class="thumbPrice">
+                                                <span>
+                                                    Người đăng: hondahuynh
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="span3 clearfix">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="{% static '/css/images/6.jpg' %}" alt="" />
+                                            </a>
+                                        </div>
+                                        <div class="thumbSetting">
+                                            <div class="thumbTitle">
+                                                <a href="#" class="invarseColor">
+                                                    TÌnh hình quân khu 9 có 1 máy vi phạm ATTT</a>
+                                            </div>
+                                            <div class="thumbPrice">
+                                                <span>
+                                                    Người đăng: hondahuynh
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="span3 clearfix">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="{% static '/css/images/6.jpg' %}" alt="" />
+                                            </a>
+                                        </div>
+                                        <div class="thumbSetting">
+                                            <div class="thumbTitle">
+                                                <a href="#" class="invarseColor">
+                                                    TÌnh hình quân khu 9 có 1 máy vi phạm ATTT</a>
+                                            </div>
+                                            <div class="thumbPrice">
+                                                <span>
+                                                    Người đăng: hondahuynh
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="span3 clearfix">
+                                        <div class="thumbnail">
+                                            <a href="#">
+                                                <img src="{% static '/css/images/6.jpg' %}" alt="" />
+                                            </a>
+                                        </div>
+                                        <div class="thumbSetting">
+                                            <div class="thumbTitle">
+                                                <a href="#" class="invarseColor">
+                                                    TÌnh hình quân khu 9 có 1 máy vi phạm ATTT</a>
+                                            </div>
+                                            <div class="thumbPrice">
+                                                <span>
+                                                    Người đăng: hondahuynh
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span12">
+                        <div id="featuredItems">
+                            <div class="titleHeader clearfix">
+                                <h3 class="no-margin">Báo cáo</h3>
+                                <div class="pagers">
+                                    <div class="btn-toolbar">
+                                        <button class="btn btn-mini">Ngày</button>
+                                        <button class="btn btn-mini">Tuần</button>
+                                        <button class="btn btn-mini">Tháng</button>
+                                        <button class="btn btn-mini">Xem Tất Cả</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span9 width:900px">
+                <br>
+                <div class="account-list-outer">
+                    <div class="titleHeader clearfix">
+                        <h4>1. Hệ thống giám sát ATTT FMC/FMC không hoạt động (11 đươn vị triển khai, 54 FMC)</h4>
+                    </div>
+                    <table class="account-list margin-top10px">
+                        <tr>
+                            <td class="table-bordered ui-icon-radio-on " width="100" align="center"><h4>Tên đơn vị</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>Tuần trước</h4></td>
+                            <td class="table-bordered ui-icon-radio-on "width="70" align="center"><h4>Tuần này</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>SL còn lại</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4>Đơn vị mất kết nối</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4>Hướng xử lý</h4></td>
+                        </tr>
+                        {% for fmc in fmc %}
+                            <tr>
+                                <td class="table-bordered ui-icon-radio-on ">{{ fmc.TenDonViCha }}</td>
+                                <td class="table-bordered ui-icon-radio-on " align="center">{{ fmc.SoLuongTrangBiMatKetNoi }}/{{ fmc.SoLuongMayChu }}</td>
+                                <td class="table-bordered ui-icon-radio-on " align="center"> {{ fmc.SoLuongTrangBiMatKetNoi }}</td>
+                                <td class="table-bordered ui-icon-radio-on " align="center">{{ fmc.SoLuongTrangBiMatKetNoi }}</td>
+                                <td class="table-bordered ui-icon-radio-on ">{{ fmc.DonViConMatKetNoi }}</td>
+                                <td class="table-bordered ui-icon-radio-on ">{{ fmc.HuongXyLy }}</td>
+                            </tr>
+                        {% endfor %}
+                        <tr>
+                            <td class="table-bordered ui-icon-radio-on " width="100" ><h5>Tổng</h5></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>?</h4></td>
+                            <td class="table-bordered ui-icon-radio-on "width="70" align="center"><h4>?</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>?</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                        </tr>
+                    </table>
+
+                </div>
+                <br>
+                <div class="account-list-outer">
+                    <div class="titleHeader clearfix">
+                        <h4>2. Số lượng thiết bị truy vấn tên miền độc hại mức cao trên Mạng MTQS trên địa bàn theo FMC</h4>
+                    </div>
+                    <table class="account-list margin-top10px">
+                        <tr>
+                            <td class="table-bordered ui-icon-radio-on " width="100" align="center"><h4>Tên đơn vị</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>Tuần trước</h4></td>
+                            <td class="table-bordered ui-icon-radio-on "width="70" align="center"><h4>Tuần này</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>SL tăng/giảm</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4>Nguyên nhân</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4>Hướng xử lý</h4></td>
+                        </tr>
+                        {% for fmc in fmc %}
+                            <tr>
+                                <td class="table-bordered ui-icon-radio-on ">{{ fmc.TenDonViCha }}</td>
+                                <td class="table-bordered ui-icon-radio-on " align="center">{{ fmc.SoLuongTrangBiMatKetNoi }}/{{ fmc.SoLuongMayChu }}</td>
+                                <td class="table-bordered ui-icon-radio-on " align="center"> {{ fmc.SoLuongTrangBiMatKetNoi }}</td>
+                                <td class="table-bordered ui-icon-radio-on " align="center">{{ fmc.SoLuongTrangBiMatKetNoi }}</td>
+                                <td class="table-bordered ui-icon-radio-on ">{{ fmc.DonViConMatKetNoi }}</td>
+                                <td class="table-bordered ui-icon-radio-on ">{{ fmc.HuongXyLy }}</td>
+                            </tr>
+                        {% endfor %}
+                        <tr>
+                            <td class="table-bordered ui-icon-radio-on " width="100" ><h5>Tổng</h5></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>?</h4></td>
+                            <td class="table-bordered ui-icon-radio-on "width="70" align="center"><h4>?</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>?</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+                <div class="account-list-outer">
+                    <div class="titleHeader clearfix">
+                        <h4>3. Mức độ mã độc truy vấn tên miền độc hại trên mạng MTQS rên địa bàn theo Qradar</h4>
+                    </div>
+                    <table class="account-list margin-top10px">
+                        <tr>
+                            <td class="table-bordered ui-icon-radio-on " width="100" align="center"><h4>Tên đơn vị</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>Tuần trước</h4></td>
+                            <td class="table-bordered ui-icon-radio-on "width="70" align="center"><h4>Tuần này</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>SL tăng/giảm</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4>Nguyên nhân</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4>Hướng xử lý</h4></td>
+                        </tr>
+                        {% for fmc in fmc %}
+                            <tr>
+                                <td class="table-bordered ui-icon-radio-on ">{{ fmc.TenDonViCha }}</td>
+                                <td class="table-bordered ui-icon-radio-on " align="center">{{ fmc.SoLuongTrangBiMatKetNoi }}/{{ fmc.SoLuongMayChu }}</td>
+                                <td class="table-bordered ui-icon-radio-on " align="center"> {{ fmc.SoLuongTrangBiMatKetNoi }}</td>
+                                <td class="table-bordered ui-icon-radio-on " align="center">{{ fmc.SoLuongTrangBiMatKetNoi }}</td>
+                                <td class="table-bordered ui-icon-radio-on ">{{ fmc.DonViConMatKetNoi }}</td>
+                                <td class="table-bordered ui-icon-radio-on ">{{ fmc.HuongXyLy }}</td>
+                            </tr>
+                        {% endfor %}
+                        <tr>
+                            <td class="table-bordered ui-icon-radio-on " width="100" ><h5>Tổng</h5></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>?</h4></td>
+                            <td class="table-bordered ui-icon-radio-on "width="70" align="center"><h4>?</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>?</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                        </tr>
+                    </table>
+
+
+
+
+                </div>
+                <br>
+                <div class="account-list-outer">
+                    <div class="titleHeader clearfix">
+                        <h4>4. Các phần mềm dùng chung không hoạt động tại các đơn vị trên địa bàn</h4>
+                    </div>
+                    <table class="account-list margin-top10px">
+                        <tr>
+                            <td class="table-bordered ui-icon-radio-on " width="100" align="center"><h4>Tên phần mềm</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " width="100" align="center"><h4>Số lượng không hoạt động</h4></td>
+                            <td class="table-bordered ui-icon-radio-on "width="70" align="center"><h4>Số lượng đã xử lý</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>số lượng còn lại</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4>Nguyên nhân</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4>Hướng xử lý</h4></td>
+                        </tr>
+                        {% for fmc in fmc %}
+                            <tr>
+                                <td class="table-bordered ui-icon-radio-on ">{{ fmc.TenDonViCha }}</td>
+                                <td class="table-bordered ui-icon-radio-on " align="center">{{ fmc.SoLuongTrangBiMatKetNoi }}/{{ fmc.SoLuongMayChu }}</td>
+                                <td class="table-bordered ui-icon-radio-on " align="center"> {{ fmc.SoLuongTrangBiMatKetNoi }}</td>
+                                <td class="table-bordered ui-icon-radio-on " align="center">{{ fmc.SoLuongTrangBiMatKetNoi }}</td>
+                                <td class="table-bordered ui-icon-radio-on ">{{ fmc.DonViConMatKetNoi }}</td>
+                                <td class="table-bordered ui-icon-radio-on ">{{ fmc.HuongXyLy }}</td>
+                            </tr>
+                        {% endfor %}
+                        <tr>
+                            <td class="table-bordered ui-icon-radio-on " width="100" ><h5>Tổng</h5></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>?</h4></td>
+                            <td class="table-bordered ui-icon-radio-on "width="70" align="center"><h4>?</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>?</h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                            <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                        </tr>
+                    </table>
+
+
+
+
+                </div>
+            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span12">
+                        <div id="featuredItems">
+                            <div class="titleHeader clearfix">
+                                <h3 class="no-margin">Thống kê</h3>
+                                <div class="pagers">
+                                    <div class="btn-toolbar">
+                                        <button class="btn btn-mini">Ngày</button>
+                                        <button class="btn btn-mini">Tuần</button>
+                                        <button class="btn btn-mini">Tháng</button>
+                                        <button class="btn btn-mini">Xem Tất Cả</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <table class="account-list margin-top10px">
+                                    <tr>
+                                        <td class="table-bordered ui-icon-radio-on " width="100" align="center"><h4>Tên đơn vị</h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>Tuần trước</h4></td>
+                                        <td class="table-bordered ui-icon-radio-on "width="70" align="center"><h4>Tuần này</h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>SL tăng/giảm</h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4>Nguyên nhân</h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4>Hướng xử lý</h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4>Hướng xử lý</h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4>Hướng xử lý</h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4>Hướng xử lý</h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4>Hướng xử lý</h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4>Hướng xử lý</h4></td>
+                                    </tr>
+                                    {% for fmc in fmc %}
+                                        <tr>
+                                            <td class="table-bordered ui-icon-radio-on ">{{ fmc.TenDonViCha }}</td>
+                                            <td class="table-bordered ui-icon-radio-on " align="center">{{ fmc.SoLuongTrangBiMatKetNoi }}/{{ fmc.SoLuongMayChu }}</td>
+                                            <td class="table-bordered ui-icon-radio-on " align="center"> {{ fmc.SoLuongTrangBiMatKetNoi }}</td>
+                                            <td class="table-bordered ui-icon-radio-on " align="center">{{ fmc.SoLuongTrangBiMatKetNoi }}</td>
+                                            <td class="table-bordered ui-icon-radio-on ">{{ fmc.DonViConMatKetNoi }}</td>
+                                            <td class="table-bordered ui-icon-radio-on ">{{ fmc.HuongXyLy }}</td>
+                                            <td class="table-bordered ui-icon-radio-on ">{{ fmc.HuongXyLy }}</td>
+                                            <td class="table-bordered ui-icon-radio-on ">{{ fmc.HuongXyLy }}</td>
+                                            <td class="table-bordered ui-icon-radio-on ">{{ fmc.HuongXyLy }}</td>
+                                            <td class="table-bordered ui-icon-radio-on ">{{ fmc.HuongXyLy }}</td>
+                                        </tr>
+                                    {% endfor %}
+                                    <tr>
+                                        <td class="table-bordered ui-icon-radio-on " width="100" ><h5>Tổng</h5></td>
+                                        <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>?</h4></td>
+                                        <td class="table-bordered ui-icon-radio-on "width="70" align="center"><h4>?</h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " width="70" align="center"><h4>?</h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                                        <td class="table-bordered ui-icon-radio-on " align="center"><h4></h4></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+{% endblock %}
